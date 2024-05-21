@@ -22,4 +22,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run script
-        run: python path/to/your_script.py
+        run: python openinterest_all_coins.py
