@@ -5,7 +5,7 @@ from decimal import Decimal
 from datetime import datetime
 
 # Replace with your own API key and secret
-api_key = 'your_api_key'
+api_key = 'R8wD5SrF4c5aEbrebnF7spUT0HVXDmOYsbk4gKVs07wz6J7Z1LAaPVSk3LG4H04l'
 api_secret = 'your_api_secret'
 
 # Set base URL for Futures API
