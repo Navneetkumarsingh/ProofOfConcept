@@ -24,4 +24,4 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run script and send email
-      run: python path/to/send_email_with_output.py
+      run: python openinterest_all_coins.py
