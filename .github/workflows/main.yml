@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
 
@@ -24,4 +24,4 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run script and send email
-      run: python openinterest_all_coins.py.py
+      run: python path/to/send_email_with_output.py
